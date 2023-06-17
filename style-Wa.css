@@ -1,8 +1,8 @@
 #Global-container {
     height: fit-content;
     background: linear-gradient(135deg ,#00feba ,#5b548a);
-
 }
+
 /* ---------------First container styling--------------- */
 
 #First-container {
@@ -10,7 +10,7 @@
     width: 90%;
     color: #fff;
     border-radius: 30px;
-    margin: 0 auto ;
+    margin: 0 auto;
     padding: 40px 35px;
     text-align: center;
 }
@@ -23,11 +23,11 @@
 
 .msg {
     text-align: center;
-    font-size:2vw;
-    font-weight:400;
+    font-size: 2.5vw;
+    font-weight: 400;
     margin: .8em auto;
-    
 }
+
 .search {
     width: 100%;
     display: flex;
@@ -59,24 +59,56 @@
     cursor: pointer;
 }
 
-
 .search button img {
     width: 25px;
-    height: 25px    ;
+    height: 25px;
 }
-
 
 /* ---------------Second container styling--------------- */
 
 #Second-container {
-
     width: 90%;
     max-width: 800px;
-
-
 }
 
 .detail-image {
     width: 40px;
     height: 50px;
+}
+
+/* ---------------Media Queries--------------- */
+
+@media (max-width: 768px) {
+    #First-container {
+        max-width: 90%;
+        padding: 30px;
+    }
+
+    .msg {
+        font-size: 3.5vw;
+    }
+
+    .search {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    #First-container {
+        max-width: 85%;
+        padding: 25px;
+    }
+
+    #weather-icon {
+        width: 160px;
+        margin: 30px auto 10px;
+    }
+
+    .msg {
+        font-size: 4.5vw;
+    }
+
+    .search {
+        margin-top: 60px;
+    }
 }
