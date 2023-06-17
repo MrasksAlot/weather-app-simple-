@@ -1,0 +1,82 @@
+#Global-container {
+    height: fit-content;
+    background: linear-gradient(135deg ,#00feba ,#5b548a);
+
+}
+/* ---------------First container styling--------------- */
+
+#First-container {
+    max-width: 470px;
+    width: 90%;
+    color: #fff;
+    border-radius: 30px;
+    margin: 0 auto ;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+/* ---------------Search part styling--------------- */
+#weather-icon{
+    width: 200px;
+    margin: 40px auto 20px;
+}
+
+.msg {
+    text-align: center;
+    font-size:2vw;
+    font-weight:400;
+    margin: .8em auto;
+    
+}
+.search {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto 0px;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+.search button img {
+    width: 25px;
+    height: 25px    ;
+}
+
+
+/* ---------------Second container styling--------------- */
+
+#Second-container {
+
+    width: 90%;
+    max-width: 800px;
+
+
+}
+
+.detail-image {
+    width: 40px;
+    height: 50px;
+}
